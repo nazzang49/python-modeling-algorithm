@@ -7,7 +7,8 @@ from surprise.model_selection import KFold
 import numpy as np
 from surprise.model_selection import cross_validate
 
-def do_collaborative_filtering_test():
+# 1
+def do_baseline_model_test():
     data = surprise.Dataset.load_builtin('ml-100k')
 
     # call raw data
@@ -54,11 +55,5 @@ def do_collaborative_filtering_test():
 
     # reduce lines in short
     # cross_validate(algo, data)
-
-
-
-
-
-
 
 

@@ -1,5 +1,7 @@
-from collaborativefiltering import collaborative_filtering
+from recommendsystem import baseline_model
+from recommendsystem import collaborative_filtering
 
 if __name__ == "__main__":
     # collaborative filtering test by surprise package
-    collaborative_filtering.do_collaborative_filtering_test()
+    baseline_model.do_baseline_model_test()
+    collaborative_filtering.do_collaborative_filtering()
