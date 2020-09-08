@@ -1,0 +1,1 @@
+from film_recommend_engine import collaborative_filtering_model
