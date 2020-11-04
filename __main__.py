@@ -1,6 +1,8 @@
-from recommendsystem import baseline_model
-from recommendsystem import collaborative_filtering
+from recommend_system_algorithm import baseline_model
+from recommend_system_algorithm import collaborative_filtering
 from film_recommend_engine import collaborative_filtering_model
+import numpy as np
+
 
 if __name__ == "__main__":
     # collaborative filtering test by surprise package
