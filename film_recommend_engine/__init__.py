@@ -1,1 +1,2 @@
-from film_recommend_engine import collaborative_filtering_model
+from film_recommend_engine import collaborative_filtering_model_by_user
+from film_recommend_engine import collaborative_filtering_model_by_item

@@ -1,3 +1,4 @@
+# 사용자 기반 영화 추천 엔진
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -76,8 +77,11 @@ def make_recommend_engine():
     top_k_distances, top_k_users = neighbors.kneighbors(ratings_train, return_distance=True)
     print("======================== top_k_distances ========================")
     print(top_k_distances)
+    print(top_k_distances.shape)
+
     print("======================== top_k_users ========================")
     print(top_k_users)
+    print(top_k_users.shape)
 
     # print("======================== top_k_distances (transpose) ========================")
     # print(top_k_distances.T)
